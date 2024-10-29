@@ -4,7 +4,7 @@ import Header from "./components/header"
 import Footer from "./components/footer"
 import "./css/layout.css"
 
-const layout = ()=>{
+const Layout = ()=>{
     const[menuOpen, setMenuOpen] = useState(false);
     
     const toggle = ()=>{
@@ -30,4 +30,4 @@ const layout = ()=>{
     );
 };
 
-export default layout;
+export default Layout;
