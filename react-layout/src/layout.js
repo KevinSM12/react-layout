@@ -5,7 +5,7 @@ import Footer from "./components/footer"
 import "./css/layout.css"
 
 const Layout = ()=>{
-    const[menuOpen, setMenuOpen] = useState(false);
+    const[menuOpen, setMenuOpen] = useState(false); 
     
     const toggle = ()=>{
         setMenuOpen(!menuOpen);
