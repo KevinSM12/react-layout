@@ -23,6 +23,7 @@ const housePlans = (housePlan)=>{
                     size={housePlan.size}
                     bedrooms={housePlan.bedrooms}
                     bathrooms={housePlan.bathrooms}
+                    main_image = {housePlan.main_image}
                 />
 
             ))}
